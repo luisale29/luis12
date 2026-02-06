@@ -7,7 +7,7 @@ class Ventilador{
 
 private:
     string color;          
-    bool encencido;
+    bool encendido;
     int VelocidadActual;
     int VelocidadMaxima;
 
@@ -15,7 +15,7 @@ private:
 
 public:
     
-    Ventilador(string col, int VelocidadMaxima);
+    Ventilador(string col, int VelocidadMax);
 
     void encender();
     void apagar();
