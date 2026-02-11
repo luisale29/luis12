@@ -7,7 +7,8 @@ Ventilador::Ventilador(string col, int VelocidadMaxima){
 
 color = col;
 
- VelocidadMaxima = VelocidadMaxima;
+ this->VelocidadMaxima = VelocidadMaxima;
+
  
  VelocidadActual = 0;
 
@@ -47,8 +48,7 @@ void Ventilador::mostrarEstado() {
     cout << "Velocidad: " << VelocidadActual << "/" << VelocidadMaxima << endl;
     cout << "-----------------------------\n";
 }
-
-
+ 
 
 
  

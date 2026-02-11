@@ -1,5 +1,5 @@
-#ifndef CLASEOBJETO_H
-#define CLASEOBJETO_H
+#ifndef ClaseObjeto.h
+#define ClaseObjeto.h
 #include <string>
 using namespace std;
 
