@@ -20,12 +20,12 @@ void Ventilador::apagar() {
     encendido = false;
     VelocidadActual = 0;
 }
+void Ventilador::subirVelocidad(){
+if (!encendido) {
+    cout << "No se puede subir la velocidad: el ventilador esta apagado." << endl;
+    return;
+}
 
-void Ventilador::subirVelocidad() {
-    if (!encendido) {
-        cout << "No se puede subir la velocidad: el ventilador esta apagado.\n";
-        return;
-    }
 
     if (VelocidadActual < VelocidadMaxima) {
         VelocidadActual++;
