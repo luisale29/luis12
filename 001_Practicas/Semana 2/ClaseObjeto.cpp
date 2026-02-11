@@ -20,7 +20,7 @@ void Ventilador::apagar() {
     encendido = false;
     VelocidadActual = 0;
 }
-void Ventilador::subirVelocidad(){
+void Ventilador::subirVelocidad() {
 if (!encendido) {
     cout << "No se puede subir la velocidad: el ventilador esta apagado." << endl;
     return;
@@ -40,7 +40,14 @@ void Ventilador::bajarVelocidad() {
     } else {
         cout << "La velocidad ya es 0.\n";
     }
+
 }
+
+void Ventilador::encender() {
+    encendido = true;
+    cout << "El ventilador se ha encendido." << endl;
+}
+
 
 void Ventilador::mostrarEstado() {
     cout << "Color: " << color << endl;
